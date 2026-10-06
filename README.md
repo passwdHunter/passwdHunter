@@ -16,7 +16,9 @@
 
 <!-- Виджет TryHackMe -->
 <!-- thm-stats-start -->
-![THM Rank](https://img.shields.io/badge/THM_Rank-N/A-red?style=flat-square&logo=tryhackme) ![THM Points](https://img.shields.io/badge/THM_Points-N/A-blue?style=flat-square&logo=tryhackme)
+<a href="https://tryhackme.com/p/taxEvasion">
+  <img src="https://tryhackme-badges.s3.amazonaws.com/taxEvasion.png" alt="TryHackMe Badge" />
+</a>
 <!-- thm-stats-end -->
 
 <br/><br/>
