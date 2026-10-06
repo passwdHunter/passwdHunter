@@ -16,7 +16,7 @@
 
 <!-- Виджет TryHackMe -->
 <a href="https://tryhackme.com/p/taxEvasion">
-  <img src="https://tryhackme-badges.s3.amazonaws.com/taxEvasion.png" alt="TryHackMe Badge" />
+  <img src="https://tryhackme-badge.vercel.app/api/users/taxEvasion" alt="TryHackMe Badge" />
 </a>
 
 <br/><br/>
@@ -32,17 +32,17 @@
 
 ---
 
-## 🚀 Портфолио
+## Портфолио
 
 <table width="100%">
 <tr>
 <td style="padding: 15px; background-color: #0d1117; border: 1px solid #30363d; border-radius: 8px;">
 
-### 📂 [Sybersec](https://github.com/passwdHunter/Sybersec)
+### [Sybersec](https://github.com/passwdHunter/Sybersec)
 Коллекция структурированных отчётов, разборов CTF-машин (**TryHackMe**) и тасков (**Root-Me**).
 
-- 🎯 **machines:** Разведка, Foothold, PrivEsc
-- 🧩 **solved_roblems:** Web, Forensics, Scripting
+- **machines:** Разведка, Foothold, PrivEsc
+- **solved_roblems:** Web, Forensics, Scripting
 </td>
 </tr>
 </table>
