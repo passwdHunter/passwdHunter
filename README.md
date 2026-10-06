@@ -15,7 +15,7 @@
 <!-- Статистика THM -->
 <p align="center">
   <a href="https://tryhackme.com/p/taxEvasion">
-    <img src="https://img.shields.io/badge/THM%20Rank-%23159450-FF214B?style=flat-square&logo=tryhackme&logoColor=white" />
+    <img src="https://img.shields.io/badge/THM%20Rank-%23153200-FF214B?style=flat-square&logo=tryhackme&logoColor=white" />
   </a>
   <a href="https://tryhackme.com/p/taxEvasion">
     <img src="https://img.shields.io/badge/Top-6%25-212C42?style=flat-square" />
