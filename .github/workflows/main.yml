@@ -2,8 +2,11 @@ name: Update TryHackMe Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Запуск каждый день в полночь
-  workflow_dispatch: # Возможность запустить вручную
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-readme:
@@ -14,22 +17,36 @@ jobs:
 
       - name: Fetch THM Data & Update README
         run: |
-          DATA=$(curl -s "https://tryhackme.com/api/v2/public-profile?username=taxEvasion")
-          RANK=$(echo $DATA | jq -r '.data.userRank // "N/A"')
-          POINTS=$(echo $DATA | jq -r '.data.points // "N/A"')
-          
-          export RANK_URL="https://img.shields.io/badge/THM_Rank-${RANK}-red?style=flat-square&logo=tryhackme"
-          export POINTS_URL="https://img.shields.io/badge/THM_Points-${POINTS}-blue?style=flat-square&logo=tryhackme"
-          
           python3 -c "
-          import os, re
-          rank_url = os.environ['RANK_URL']
-          points_url = os.environ['POINTS_URL']
-          with open('README.md', 'r') as f:
+          import urllib.request
+          import json
+          import re
+
+          url = 'https://tryhackme.com/api/v2/public-profile?username=taxEvasion'
+          req = urllib.request.Request(
+              url, 
+              headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+          )
+
+          try:
+              with urllib.request.urlopen(req) as response:
+                  data = json.loads(response.read().decode())
+                  rank = data.get('data', {}).get('userRank', 'N/A')
+                  points = data.get('data', {}).get('points', 'N/A')
+          except Exception as e:
+              print(f'Error fetching THM data: {e}')
+              rank, points = 'N/A', 'N/A'
+
+          rank_url = f'https://img.shields.io/badge/THM_Rank-{rank}-red?style=flat-square&logo=tryhackme'
+          points_url = f'https://img.shields.io/badge/THM_Points-{points}-blue?style=flat-square&logo=tryhackme'
+
+          with open('README.md', 'r', encoding='utf-8') as f:
               content = f.read()
+
           new_block = f'<!-- thm-stats-start -->\n![THM Rank]({rank_url}) ![THM Points]({points_url})\n<!-- thm-stats-end -->'
           new_content = re.sub(r'<!-- thm-stats-start -->.*?<!-- thm-stats-end -->', new_block, content, flags=re.DOTALL)
-          with open('README.md', 'w') as f:
+
+          with open('README.md', 'w', encoding='utf-8') as f:
               f.write(new_content)
           "
 
