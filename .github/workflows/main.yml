@@ -22,20 +22,31 @@ jobs:
           import json
           import re
 
-          url = 'https://tryhackme.com/api/v2/public-profile?username=taxEvasion'
-          req = urllib.request.Request(
-              url, 
-              headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
-          )
+          headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+          rank, points = 'N/A', 'N/A'
 
+          # Способ 1: Открытый эндпоинт ранга THM
           try:
-              with urllib.request.urlopen(req) as response:
-                  data = json.loads(response.read().decode())
-                  rank = data.get('data', {}).get('userRank', 'N/A')
-                  points = data.get('data', {}).get('points', 'N/A')
+              req = urllib.request.Request('https://tryhackme.com/api/users/rank/taxEvasion', headers=headers)
+              with urllib.request.urlopen(req) as resp:
+                  data = json.loads(resp.read().decode())
+                  rank = data.get('userRank', data.get('rank', 'N/A'))
+                  points = data.get('points', 'N/A')
           except Exception as e:
-              print(f'Error fetching THM data: {e}')
-              rank, points = 'N/A', 'N/A'
+              print(f'API error: {e}')
+
+          # Способ 2: Парсинг страницы профиля, если API вернул N/A
+          if rank == 'N/A' or points == 'N/A':
+              try:
+                  req = urllib.request.Request('https://tryhackme.com/p/taxEvasion', headers=headers)
+                  with urllib.request.urlopen(req) as resp:
+                      html = resp.read().decode()
+                      rank_match = re.search(r'\"userRank\":\s*(\d+)', html)
+                      points_match = re.search(r'\"points\":\s*(\d+)', html)
+                      if rank_match: rank = rank_match.group(1)
+                      if points_match: points = points_match.group(1)
+              except Exception as e:
+                  print(f'HTML parse error: {e}')
 
           rank_url = f'https://img.shields.io/badge/THM_Rank-{rank}-red?style=flat-square&logo=tryhackme'
           points_url = f'https://img.shields.io/badge/THM_Points-{points}-blue?style=flat-square&logo=tryhackme'
