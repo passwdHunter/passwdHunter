@@ -1,19 +1,18 @@
 <div align="center">
 
+<!-- Баннер над карточкой -->
+<a href="https://tryhackme.com/p/taxEvasion">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:161b22,100:FF214B&height=60&text=taxEvasion%20/%20passwdHunter&fontSize=18&fontColor=ffffff" width="460" />
+</a>
+
 <table width="460">
 <tr>
 <td align="center">
 
-<!-- Градиентная шапка -->
-<a href="https://tryhackme.com/p/taxEvasion">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:161b22,100:FF214B&height=80&text=taxEvasion%20/%20passwdHunter&fontSize=20&fontColor=ffffff&stroke=0d1117" width="100%" />
-</a>
-
 <br/>
 
-<!-- Аватарка -->
 <a href="https://tryhackme.com/p/taxEvasion">
-  <img width="120" height="120" alt="taxEvasion" src="https://github.com/user-attachments/assets/26415d3b-c658-4430-9586-4c9c3a2ee09e" />
+  <img width="85" height="85" alt="taxEvasion" src="https://github.com/user-attachments/assets/26415d3b-c658-4430-9586-4c9c3a2ee09e" />
 </a>
 
 <p align="center"><b>Cybersecurity Enthusiast & CTF Player</b></p>
