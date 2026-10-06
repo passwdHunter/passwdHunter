@@ -38,7 +38,7 @@
 </table>
 
 </div>
->  **Current Focus:** Web Exploitation, Privilege Escalation (Linux/Windows) & Active Directory Basics.
+> 🎯 **Current Focus:** Web Exploitation, Privilege Escalation (Linux/Windows) & Active Directory Basics.
 ---
 
 ##  Портфолио
