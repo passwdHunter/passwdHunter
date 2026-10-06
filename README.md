@@ -14,12 +14,8 @@
 
 <br/>
 
-<!-- Виджет TryHackMe -->
-<!-- thm-stats-start -->
-<a href="https://tryhackme.com/p/taxEvasion">
-  <img src="https://tryhackme-badges.s3.amazonaws.com/taxEvasion.png" alt="TryHackMe Badge" />
-</a>
-<!-- thm-stats-end -->
+[![THM Rank](https://img.shields.io/badge/THM_Rank-159450-FF214B?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/taxEvasion)
+[![THM Top](https://img.shields.io/badge/THM_Top-Top_6%25-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/taxEvasion)
 
 <br/><br/>
 
