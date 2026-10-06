@@ -1,0 +1,41 @@
+name: Update TryHackMe Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Запуск каждый день в полночь
+  workflow_dispatch: # Возможность запустить вручную
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch THM Data & Update README
+        run: |
+          DATA=$(curl -s "https://tryhackme.com/api/v2/public-profile?username=taxEvasion")
+          RANK=$(echo $DATA | jq -r '.data.userRank // "N/A"')
+          POINTS=$(echo $DATA | jq -r '.data.points // "N/A"')
+          
+          export RANK_URL="https://img.shields.io/badge/THM_Rank-${RANK}-red?style=flat-square&logo=tryhackme"
+          export POINTS_URL="https://img.shields.io/badge/THM_Points-${POINTS}-blue?style=flat-square&logo=tryhackme"
+          
+          python3 -c "
+          import os, re
+          rank_url = os.environ['RANK_URL']
+          points_url = os.environ['POINTS_URL']
+          with open('README.md', 'r') as f:
+              content = f.read()
+          new_block = f'<!-- thm-stats-start -->\n![THM Rank]({rank_url}) ![THM Points]({points_url})\n<!-- thm-stats-end -->'
+          new_content = re.sub(r'<!-- thm-stats-start -->.*?<!-- thm-stats-end -->', new_block, content, flags=re.DOTALL)
+          with open('README.md', 'w') as f:
+              f.write(new_content)
+          "
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update TryHackMe stats" && git push)
