@@ -55,6 +55,3 @@
 
 ---
 
-<div align="center">
-  <sub><i>"The quietest people have the loudest minds."</i></sub>
-</div>
