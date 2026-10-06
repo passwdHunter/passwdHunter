@@ -1,13 +1,8 @@
 <div align="center">
 
-<!-- Баннер над карточкой -->
-<a href="https://tryhackme.com/p/taxEvasion">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:161b22,100:FF214B&height=60&text=taxEvasion%20/%20passwdHunter&fontSize=18&fontColor=ffffff" width="460" />
-</a>
-
 <table width="460">
 <tr>
-<td align="center">
+<td align="center"><a href="https://tryhackme.com/p/taxEvasion"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:161b22,100:FF214B&height=65&text=taxEvasion%20/%20passwdHunter&fontSize=18&fontColor=ffffff" width="100%" /></a>
 
 <br/>
 
