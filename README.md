@@ -41,7 +41,7 @@
 
 <br />
 
-> **Current Focus:** Web Exploitation, Privilege Escalation (Linux/Windows) & Active Directory Basics.
+> **Current Focus:** Building a custom Web Vulnerability Scanner (unreleased), Web Exploitation & Privilege Escalation.
 
 ---
 
