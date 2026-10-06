@@ -9,7 +9,7 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:161b22,100:FF214B&height=80&text=taxEvasion%20/%20passwdHunter&fontSize=20&fontColor=ffffff&stroke=0d1117" width="100%" />
 </a>
 
-<br/><br/>
+<br/>
 
 <!-- Аватарка -->
 <a href="https://tryhackme.com/p/taxEvasion">
