@@ -15,9 +15,7 @@
 <br/>
 
 <!-- Виджет TryHackMe -->
-<a href="https://tryhackme.com/p/taxEvasion">
-  <img src="https://tryhackme-badge.vercel.app/api/users/taxEvasion" alt="TryHackMe Badge" />
-</a>
+![TryHackMe Stats](https://vercel.app)
 
 <br/><br/>
 
