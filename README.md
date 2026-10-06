@@ -41,17 +41,17 @@
 
 ---
 
-## 🚀 Портфолио
+##  Портфолио
 
 <table width="100%">
 <tr>
 <td style="padding: 16px; background-color: #0d1117; border: 1px solid #30363d; border-radius: 8px;">
 
-### 📂 [Sybersec](https://github.com/passwdHunter/Sybersec)
+###  [Sybersec](https://github.com/passwdHunter/Sybersec)
 Коллекция структурированных отчётов, разборов CTF-машин (**TryHackMe**) и тасков (**Root-Me**).
 
-* 🎯 **`machines`** — Разведка, Foothold, PrivEsc
-* 🧩 **`solved_roblems`** — Web, Forensics, Scripting
+*  **`machines`** — Разведка, Foothold, PrivEsc
+*  **`solved_roblems`** — Web, Forensics, Scripting
 
 </td>
 </tr>
