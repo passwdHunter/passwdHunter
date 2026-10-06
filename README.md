@@ -57,7 +57,7 @@
 Коллекция структурированных отчётов, разборов CTF-машин (**TryHackMe**) и тасков (**Root-Me**).
 
 * **machines:** Разведка, Foothold, PrivEsc
-* **solved_roblems:** Web, Forensics, Scripting
+* **solved_problems:** Web, Forensics, Scripting
 
 ---
 
