@@ -41,8 +41,8 @@
 ### 📂 [Sybersec](https://github.com/passwdHunter/Sybersec)
 Коллекция структурированных отчётов, разборов CTF-машин (**TryHackMe**) и тасков (**Root-Me**).
 
-- 🎯 **Solved Machines:** Разведка, Foothold, PrivEsc
-- 🧩 **Solved Problems:** Web, Forensics, Scripting
+- 🎯 **machines:** Разведка, Foothold, PrivEsc
+- 🧩 **solved_roblems:** Web, Forensics, Scripting
 </td>
 </tr>
 </table>
