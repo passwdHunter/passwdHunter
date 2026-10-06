@@ -10,7 +10,7 @@
   <img width="130" height="130" alt="taxEvasion" src="https://github.com/user-attachments/assets/26415d3b-c658-4430-9586-4c9c3a2ee09e" />
 </a>
 
-<p align="center"><b>Cybersecurity Enthusiast & CTF Player</b></p>
+<p align="center"><b>Aspiring Penetration Tester & CTF Player</b></p>
 
 <!-- Статистика THM -->
 <p align="center">
