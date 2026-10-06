@@ -16,8 +16,7 @@
 
 <!-- Виджет TryHackMe -->
 <!-- thm-stats-start -->
-![THM Rank](https://img.shields.io/badge/THM_Rank-Loading-red?style=flat-square&logo=tryhackme)
-![THM Points](https://img.shields.io/badge/THM_Points-Loading-blue?style=flat-square&logo=tryhackme)
+![THM Rank](https://img.shields.io/badge/THM_Rank-N/A-red?style=flat-square&logo=tryhackme) ![THM Points](https://img.shields.io/badge/THM_Points-N/A-blue?style=flat-square&logo=tryhackme)
 <!-- thm-stats-end -->
 
 <br/><br/>
