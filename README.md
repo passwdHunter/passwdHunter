@@ -2,18 +2,24 @@
 
 <table width="460">
 <tr>
-<td align="center" style="padding: 24px; border-radius: 12px; background-color: #090d12; border: 1px solid #FF214B;">
+<td align="center">
+
+<!-- Градиентная шапка -->
+<a href="https://tryhackme.com/p/taxEvasion">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:161b22,100:FF214B&height=80&text=taxEvasion%20/%20passwdHunter&fontSize=20&fontColor=ffffff&stroke=0d1117" width="100%" />
+</a>
+
+<br/><br/>
 
 <!-- Аватарка -->
 <a href="https://tryhackme.com/p/taxEvasion">
-  <img width="100" height="100" alt="taxEvasion" src="https://github.com/user-attachments/assets/26415d3b-c658-4430-9586-4c9c3a2ee09e" style="border-radius: 50%; border: 2px solid #FF214B; object-fit: cover;" />
+  <img width="90" height="90" alt="taxEvasion" src="https://github.com/user-attachments/assets/26415d3b-c658-4430-9586-4c9c3a2ee09e" />
 </a>
 
-<h3 align="center" style="border: none; margin-top: 12px; margin-bottom: 4px;">taxEvasion / passwdHunter</h3>
-<p align="center" style="color: #8b949e; margin: 0 0 12px 0;">Cybersecurity Enthusiast & CTF Player</p>
+<p align="center"><b>Cybersecurity Enthusiast & CTF Player</b></p>
 
 <!-- Статистика THM -->
-<p align="center" style="margin-bottom: 16px;">
+<p align="center">
   <a href="https://tryhackme.com/p/taxEvasion">
     <img src="https://img.shields.io/badge/THM%20Rank-%23159450-FF214B?style=flat-square&logo=tryhackme&logoColor=white" />
   </a>
@@ -23,7 +29,7 @@
 </p>
 
 <!-- Быстрые ссылки -->
-<p align="center" style="margin: 0;">
+<p align="center">
   <a href="https://tryhackme.com/p/taxEvasion">
     <img src="https://img.shields.io/badge/TryHackMe-taxEvasion-212C42?style=flat-square&logo=tryhackme&logoColor=white" />
   </a>
@@ -47,19 +53,11 @@
 
 ## Портфолио
 
-<table width="100%">
-<tr>
-<td style="padding: 16px; background-color: #090d12; border: 1px solid #30363d; border-radius: 8px;">
-
 ### [Sybersec](https://github.com/passwdHunter/Sybersec)
 Коллекция структурированных отчётов, разборов CTF-машин (**TryHackMe**) и тасков (**Root-Me**).
 
 * **machines:** Разведка, Foothold, PrivEsc
 * **solved_roblems:** Web, Forensics, Scripting
-
-</td>
-</tr>
-</table>
 
 ---
 
