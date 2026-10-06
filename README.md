@@ -1,26 +1,37 @@
 <div align="center">
 
-<table width="500">
+<table width="460">
 <tr>
-<td align="center" style="padding: 20px; border-radius: 12px; background-color: #0d1117; border: 1px solid #30363d;">
+<td align="center" style="padding: 24px; border-radius: 12px; background-color: #0d1117; border: 1px solid #30363d;">
 
+<!-- Аватарка -->
 <a href="https://tryhackme.com/p/taxEvasion">
-  <img width="100" height="100" alt="Avatar" src="https://github.com/user-attachments/assets/26415d3b-c658-4430-9586-4c9c3a2ee09e" style="border-radius: 50%; border: 3px solid #FF214B; padding: 3px;" />
+  <img width="100" height="100" alt="taxEvasion" src="https://github.com/user-attachments/assets/26415d3b-c658-4430-9586-4c9c3a2ee09e" style="border-radius: 50%; border: 2px solid #FF214B; object-fit: cover;" />
 </a>
 
-### taxEvasion / passwdHunter
+<h3 align="center" style="border: none; margin-top: 12px; margin-bottom: 4px;">taxEvasion / passwdHunter</h3>
+<p align="center" style="color: #8b949e; margin: 0 0 12px 0;">Cybersecurity Enthusiast & CTF Player</p>
 
-**Cybersecurity Enthusiast & CTF Player**
+<!-- Аккуратная статистика THM -->
+<p align="center" style="margin-bottom: 16px;">
+  <a href="https://tryhackme.com/p/taxEvasion">
+    <img src="https://img.shields.io/badge/THM%20Rank-%23159450-FF214B?style=flat-square&logo=tryhackme&logoColor=white" />
+  </a>
+  <a href="https://tryhackme.com/p/taxEvasion">
+    <img src="https://img.shields.io/badge/Top-6%25-212C42?style=flat-square" />
+  </a>
+</p>
 
-<br/>
-
-[![THM Rank](https://img.shields.io/badge/THM_Rank-159450-FF214B?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/taxEvasion)
-[![THM Top](https://img.shields.io/badge/THM_Top-Top_6%25-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/taxEvasion)
-
-<br/><br/>
-
-[![TryHackMe Profile](https://img.shields.io/badge/TryHackMe-taxEvasion-212C42?style=for-the-badge&logo=tryhackme&logoColor=212C42&labelColor=FF214B)](https://tryhackme.com/p/taxEvasion)
-[![Root-Me Profile](https://img.shields.io/badge/Root--Me-CloudflareBypass-2f3136?style=for-the-badge&logo=rootme&logoColor=white)](https://www.root-me.org/CloudflareBypass)
+<!-- Быстрые ссылки -->
+<p align="center" style="margin: 0;">
+  <a href="https://tryhackme.com/p/taxEvasion">
+    <img src="https://img.shields.io/badge/TryHackMe-taxEvasion-212C42?style=flat-square&logo=tryhackme&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://www.root-me.org/CloudflareBypass">
+    <img src="https://img.shields.io/badge/Root--Me-CloudflareBypass-2f3136?style=flat-square&logo=rootme&logoColor=white" />
+  </a>
+</p>
 
 </td>
 </tr>
@@ -30,17 +41,18 @@
 
 ---
 
-## Портфолио
+## 🚀 Портфолио
 
 <table width="100%">
 <tr>
-<td style="padding: 15px; background-color: #0d1117; border: 1px solid #30363d; border-radius: 8px;">
+<td style="padding: 16px; background-color: #0d1117; border: 1px solid #30363d; border-radius: 8px;">
 
-### [Sybersec](https://github.com/passwdHunter/Sybersec)
+### 📂 [Sybersec](https://github.com/passwdHunter/Sybersec)
 Коллекция структурированных отчётов, разборов CTF-машин (**TryHackMe**) и тасков (**Root-Me**).
 
-- **machines:** Разведка, Foothold, PrivEsc
-- **solved_roblems:** Web, Forensics, Scripting
+* 🎯 **`machines`** — Разведка, Foothold, PrivEsc
+* 🧩 **`solved_roblems`** — Web, Forensics, Scripting
+
 </td>
 </tr>
 </table>
