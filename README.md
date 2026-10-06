@@ -2,7 +2,7 @@
 
 <table width="460">
 <tr>
-<td align="center" style="padding: 24px; border-radius: 12px; background-color: #0d1117; border: 1px solid #30363d;">
+<td align="center" style="padding: 24px; border-radius: 12px; background-color: #090d12; border: 1px solid #FF214B;">
 
 <!-- Аватарка -->
 <a href="https://tryhackme.com/p/taxEvasion">
@@ -49,7 +49,7 @@
 
 <table width="100%">
 <tr>
-<td style="padding: 16px; background-color: #0d1117; border: 1px solid #30363d; border-radius: 8px;">
+<td style="padding: 16px; background-color: #090d12; border: 1px solid #30363d; border-radius: 8px;">
 
 ### [Sybersec](https://github.com/passwdHunter/Sybersec)
 Коллекция структурированных отчётов, разборов CTF-машин (**TryHackMe**) и тасков (**Root-Me**).
