@@ -7,7 +7,7 @@
 <br/>
 
 <a href="https://tryhackme.com/p/taxEvasion">
-  <img width="130" height="130" alt="taxEvasion" src="https://github.com/user-attachments/assets/26415d3b-c658-4430-9586-4c9c3a2ee09e" />
+  <img width="200" height="200" alt="taxEvasion" src="https://github.com/user-attachments/assets/26415d3b-c658-4430-9586-4c9c3a2ee09e" />
 </a>
 
 <p align="center"><b>Aspiring Penetration Tester & CTF Player</b></p>
